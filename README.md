@@ -1,17 +1,27 @@
 # Retail Sales Analytics & Revenue Forecasting Dashboard
 
-**Project Overview:**
+**Project Overview**
 
 This project presents an end-to-end Retail Sales Analytics and Revenue Forecasting solution built using Python and Power BI.
 The objective of this project is to analyze retail sales performance, identify revenue trends, and forecast future sales using AI-based time-series forecasting.
 
-**Tools & Technologies:**
+## 🎥 Demo Video
 
-Python, Pandas, Matplotlib, 
-Prophet, Microsoft Power BI, 
-DAX
+Click the thumbnail to watch the demo.
 
-**Project Goal:**
+[![Project Demo](https://img.youtube.com/vi/yfvcIHruZ0U/0.jpg)](https://www.youtube.com/watch?v=yfvcIHruZ0U)
+
+**Tools & Technologies Used**
+
+- Python
+- Pandas
+- Matplotlib
+- Prophet
+- Microsoft Power BI
+- DAX
+
+
+**Project Goal**
 
 The main goals of this project were to:
 - Analyze retail sales performance
@@ -20,19 +30,20 @@ The main goals of this project were to:
 - Predict future revenue using AI forecasting
 - Build an interactive dashboard for business insights
 
-**Project Workflow:**
+**Project Workflow**
 
 The project follows this data pipeline:
 
-- Python Data Cleaning
-         ↓
-- Time Series Forecasting (Prophet)
-         ↓
-- Forecast Export (CSV)
-         ↓
-- Power BI Dashboard Visualization
+Python Data Cleaning  
+↓  
+Time Series Forecasting (Prophet)  
+↓  
+Forecast Export (CSV)  
+↓  
+Power BI Dashboard Visualization
 
-**Data Preparation (Python):**
+
+**Data Preparation (Python)**
 
 The dataset was cleaned and prepared using Python with the pandas library.
 
@@ -41,7 +52,7 @@ Steps included:
 - Aggregating sales revenue by date
 - Preparing the dataset for time-series forecasting
 
-**AI Revenue Forecasting:**
+**AI Revenue Forecasting**
 
 To predict future sales trends, a forecasting model was built using
 Prophet.
@@ -54,12 +65,12 @@ Using this model, a 30-day revenue forecast was generated.
 The forecast results were exported as a CSV file and used inside the Power BI dashboard.
 Dashboard Development
 
-**The interactive dashboard was developed using:**
+**The interactive dashboard was developed using**
 
 Microsoft Power BI.
 The dashboard contains two main pages.
 
-**Dashboard Page 1 - Sales Performance:**
+**Dashboard Page 1 - Sales Performance**
 
 This page focuses on analyzing historical retail sales performance.
 
@@ -76,7 +87,7 @@ Visualizations help users:
 - Identify top performing stores
 - Analyze discount impact on sales
 
-**Dashboard Page 2- Revenue Forecast & Sales Drivers:**
+**Dashboard Page 2- Revenue Forecast & Sales Drivers**
 
 This page focuses on forecasting and advanced insights.
 
@@ -88,7 +99,7 @@ Key features include:
 - Decomposition Tree analysis
 These insights help businesses understand the factors influencing revenue growth.
 
-**Key Insights:**
+**Key Insights**
 
 - The analysis highlights several important findings:
 - Revenue trends show steady growth across multiple months.
@@ -96,7 +107,12 @@ These insights help businesses understand the factors influencing revenue growth
 - Store-level analysis reveals top performing locations.
 - AI forecasting helps estimate future revenue and supports better business planning.
 
-**Project Outcome:**
+**Project Outcome**
 
 This project demonstrates how combining Python, AI forecasting, and Power BI dashboards can transform raw retail data into actionable business insights.
 The solution helps businesses monitor sales performance, understand revenue drivers, and make better data-driven decisions.
+
+---
+
+- Demo video [here](https://youtu.be/yfvcIHruZ0U)
+- Pdf [here](./resources/Retail-Sale-Dashboard.pdf)
